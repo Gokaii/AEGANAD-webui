@@ -1,0 +1,45 @@
+dataset_dir: /mnt/disk_4t/public/guokai/dcase2020/
+detect:
+  p: 0.1
+feat:
+  fft_num: 2048
+  frame_hop: 512
+  frame_num: 128
+  graph_hop_f: 1
+  mel_bin: 128
+  spec: mel
+log_dir: ./log
+model_dir: ./model
+mt:
+  test:
+  - fan
+  train:
+  - fan
+net:
+  act:
+  - leakyrelu
+  - relu
+  isize: 128
+  ndf: 32
+  ngf: 32
+  normalize:
+    d: ln
+    g: ln
+  nz: 256
+repre:
+  anomaly: 1
+  normal: 0
+spec_dir: ../../spec
+train:
+  beta1: 0.5
+  bs: 297
+  epoch: 60
+  lrD: 0.0002
+  lrG: 0.0002
+  wgan:
+    feat_match_eff: 1
+    lambda_gp: 10
+    match_item:
+      mu: 1
+    ncritic: 10
+train_set: dev
