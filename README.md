@@ -1,3 +1,3 @@
-#AEGAN webui
-A simple webui for AEGAN-AD
->AEGAN
+# AEGAN webui
+A simple webui for AEGAN-AD<>
+
