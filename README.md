@@ -15,4 +15,5 @@ A simple webui for [AEGAN-AD](https://github.com/jianganbai/AEGAN-AD).
 ![Inference](/imgs/train.png)
 ## Bugs
 You tell me.
-
+## License
+>MIT
