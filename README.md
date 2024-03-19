@@ -8,4 +8,6 @@ A simple webui for [AEGAN-AD](https://github.com/jianganbai/AEGAN-AD).
  >pip install gradio
 6. Here we go!
  >python webui.py
+## UI
+![Train](/imgs/train)
 
