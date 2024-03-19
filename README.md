@@ -5,7 +5,7 @@ A simple webui for [AEGAN-AD](https://github.com/jianganbai/AEGAN-AD).
 2. Edit **config.yaml** to fit your own dataset direction.
 3. Prepare your conda env according to **requirements.txt**.
 4. Get gradio that suit your environment, there maybe some failures.
->pip install gradio
+ >pip install gradio
 6. Here we go!
->python webui.py
+ >python webui.py
 
