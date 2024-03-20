@@ -12,7 +12,7 @@ A simple webui for [AEGAN-AD](https://github.com/jianganbai/AEGAN-AD).
 ### Train
 ![Train](/imgs/train.png)
 ### Inference
-![Inference](/imgs/train.png)
+![Inference](/imgs/infer.png)
 ## Bugs
 You tell me.
 ## License
